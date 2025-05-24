@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe4f0;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
